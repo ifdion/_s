@@ -1,0 +1,9 @@
+{
+  "proxy" : "wordpress",
+  "port" : 9009,
+  "deploy" : {
+    "hostname" : "123.123.123.123",
+    "username": "root",
+    "destination": "/var/www/live.com/public"
+  }
+}
